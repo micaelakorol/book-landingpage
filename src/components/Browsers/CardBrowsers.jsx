@@ -16,7 +16,7 @@ const CardBrowsers = () => {
       <>
         {data.map((item) => (
           <Card
-          key={item.id}
+            key={item.id}
             className={
               item.class === "card-two"
                 ? "card-two"
