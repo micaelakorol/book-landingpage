@@ -4,13 +4,13 @@ import {
   ContainerLogo,
   ContainerLinks,
 } from "../../styled-components/Header";
-import SvgLogo from "./SvgLogo";
 import Links from "./Links";
+import { darkLogo } from "../../variables/var";
 const Header = () => {
   return (
     <Headers>
       <ContainerLogo>
-        <SvgLogo />
+        <img src={darkLogo} alt="logo-mode-dark" />
       </ContainerLogo>
       <ContainerLinks>
         <Links />

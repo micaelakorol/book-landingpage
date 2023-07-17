@@ -4,17 +4,17 @@ import {
   ContainerPages,
   DescriptionProduc,
   Title,
-} from "./Styled-components/Simple";
-import ImgSimple from "../images/illustration-features-tab-3.svg";
+} from "./Styled-components/Simple"
 import { ContainerGeneric } from "../styled-components/Color";
 import { Description } from "../styled-components/PresentationBookMark";
+import {tab3} from '../variables/var'
 
 const Easy = () => {
   return (
     <ContainerPages>
       <ContainerGeneric>
         <img
-          src={ImgSimple}
+          src={tab3}
           alt="ilustration features tab"
           className="img-pages"
         />

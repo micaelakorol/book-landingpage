@@ -2,7 +2,6 @@ import styled from "styled-components";
 import {
   ButtonChrome,
   ContainerPrincipal,
-  Shape,
 } from "../../styled-components/PresentationBookMark";
 import { TitlePrincipal } from "../../styled-components/PresentationBookMark";
 
@@ -10,7 +9,7 @@ const ContainerPages = styled(ContainerPrincipal)`
   margin: auto;
   text-align: center;
   .img-pages {
-    width: 80%;
+    width: 60%;
   }
   p {
     font-size: 0.83rem;
@@ -22,8 +21,8 @@ const ContainerPages = styled(ContainerPrincipal)`
       width: 100%;
     }
     .img-pages {
-      width: 100%;
-      margin-bottom: 1.4rem;
+      width: 70%;
+      margin: auto;
     }
   }
 `;
@@ -48,8 +47,4 @@ const DescriptionProduc = styled.section`
   }
 `;
 
-const Shape2 = styled(Shape)`
-  //pendiente
-`;
-
-export { ContainerPages, ContainerImg, DescriptionProduc, Title, Btn, Shape2 };
+export { ContainerPages, ContainerImg, DescriptionProduc, Title, Btn };

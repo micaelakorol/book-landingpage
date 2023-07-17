@@ -2,15 +2,12 @@ import React from "react";
 import {
   ContainerCard,
   Card,
-  TitleCard,
-  BodyCard,
 } from "../../styled-components/CardBrowsers";
-import { ButtonChrome } from "../../styled-components/PresentationBookMark";
 import dataCard from "./dataCard/dataCard";
+import CardBodyBrowser from "./CardBodyBrowser";
 
 const CardBrowsers = () => {
-  let data = dataCard.items;
-
+  const data = dataCard.items;
   return (
     <ContainerCard>
       <>
@@ -25,15 +22,7 @@ const CardBrowsers = () => {
                 : null
             }
           >
-            <img
-              src={item.image}
-              alt="logo google chrome"
-              className="logo-browsers"
-            />
-            <TitleCard>{item.title}</TitleCard>
-            <BodyCard>{item.body}</BodyCard>
-            <img src={item.illustration} alt="illustration dots" />
-            <ButtonChrome>{item.btn}</ButtonChrome>
+            <CardBodyBrowser item={item} />
           </Card>
         ))}
       </>

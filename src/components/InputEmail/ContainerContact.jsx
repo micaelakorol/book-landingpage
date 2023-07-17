@@ -5,7 +5,6 @@ import Alert from "./Alert";
 
 const ContainerContact = () => {
   const [alert, setAlert] = useState(false);
-
   return (
     <Container>
       <PContact>35,000 + already joined</PContact>

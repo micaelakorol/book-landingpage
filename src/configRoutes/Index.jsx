@@ -4,9 +4,9 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import App from "../App";
-import Easy from "../Pages/Easy";
-import Simple from "../Pages/Simple";
-import Speedy from "../Pages/Speedy";
+import Easy from "../pages/Easy";
+import Simple from "../pages/Simple";
+import Speedy from "../pages/Speedy";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(

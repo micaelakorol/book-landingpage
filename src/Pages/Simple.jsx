@@ -1,14 +1,13 @@
 import React from "react";
 import { Btn, ContainerPages,DescriptionProduc, Title} from "./Styled-components/Simple";
-import ImgSimple from '../images/illustration-features-tab-1.svg'
 import { Description } from "../styled-components/PresentationBookMark";
 import { ContainerGeneric } from "../styled-components/Color";
-
+import {tab1} from '../variables/var'
 const Simple = () => {
   return (
     <ContainerPages>
       <ContainerGeneric>
-        <img src={ImgSimple} alt="ilustration features tab" className="img-pages"/>
+        <img src={tab1} alt="ilustration features tab" className="img-pages"/>
       </ContainerGeneric>
 
       <DescriptionProduc>

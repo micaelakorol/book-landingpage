@@ -13,7 +13,7 @@ darkBlue: '#3E54A3'
 
 const ContainerGeneric = styled.section`
 display: flex;
-align-items: center;
+justify-content: center;
 `
 
 export {ContainerGeneric}

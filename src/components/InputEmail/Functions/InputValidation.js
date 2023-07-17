@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { initialValue } from "../InitialValue/initialState";
+import { initialValue } from "./InitialValue/initialState";
 
 const InputValidation = () => {
   let expEmail = /[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+/;
@@ -19,7 +19,7 @@ const InputValidation = () => {
     }));
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     e.preventDefault();
   };
   return {

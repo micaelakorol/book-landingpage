@@ -1,5 +1,4 @@
 import React from "react";
-import ImgTablet from "../../images/illustration-hero.svg";
 import {
   ContainerPrincipal,
   Description,
@@ -10,6 +9,7 @@ import {
   Shape
 } from "../../styled-components/PresentationBookMark";
 import { ContainerGeneric } from "../../styled-components/Color";
+import { tablet } from "../../variables/var";
 
 const PresentationProduct = () => {
   return (
@@ -28,7 +28,7 @@ const PresentationProduct = () => {
       </InformationPrincipal>
       <ContainerGeneric>
       <img
-          src={ImgTablet}
+          src={tablet}
           alt="Presentacion imagen tablet"
           className="tablet-main"
         />

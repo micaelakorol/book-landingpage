@@ -5,7 +5,7 @@ import {
   DescriptionProduc,
   Title,
 } from "./Styled-components/Simple";
-import ImgSimple from "../images/illustration-features-tab-2.svg";
+import {tab2} from '../variables/var'
 import { Description } from "../styled-components/PresentationBookMark";
 import { ContainerGeneric } from "../styled-components/Color";
 
@@ -14,12 +14,11 @@ const Speedy = () => {
     <ContainerPages>
       <ContainerGeneric>
         <img
-          src={ImgSimple}
+          src={tab2}
           alt="ilustration features tab"
           className="img-pages"
         />
       </ContainerGeneric>
-
       <DescriptionProduc>
         <Title>Intelligent search</Title>
         <Description as="p">

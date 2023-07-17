@@ -3,12 +3,12 @@ import {
   FooterPage,
   LinkFooter,
 } from "../../styled-components/Footer";
-import Svg from "./SvgLogo";
 import SvgSocial from "./SvgSocial";
+import { logoMob } from "../../variables/var";
 const Footer = () => {
   return (
     <FooterPage as="footer">
-        <Svg />
+      <img src={logoMob} alt="logo" />
         <LinkFooter>Features</LinkFooter>
         <LinkFooter>Pricing</LinkFooter>
         <LinkFooter>Contact</LinkFooter>

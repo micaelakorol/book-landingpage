@@ -8,7 +8,7 @@ const ContainerPrincipal = styled.main`
   margin-top: 2rem;
   grid-template-columns: repeat(2, 50%);
   .tablet-main {
-    width: 100%;
+    width: 80%;
   }
   @media (max-width: 768px) {
     grid-template-columns: 1fr;

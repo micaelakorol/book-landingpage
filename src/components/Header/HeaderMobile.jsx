@@ -1,10 +1,14 @@
 import React, { useState } from "react";
-import { ContainerLinksMob, ContainerMobile, Header } from "../../styled-components/HeaderMobile";
+import {
+  ContainerLinksMob,
+  ContainerMobile,
+  Header,
+} from "../../styled-components/HeaderMobile";
 import close from "../../images/icon-close.svg";
 import menu from "../../images/icon-hamburger.svg";
-import Svg from "../Footer/SvgLogo";
 import Links from "./Links";
 import { ContainerGeneric } from "../../styled-components/Color";
+import { logoMob } from "../../variables/var";
 const HeaderMobile = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -14,15 +18,25 @@ const HeaderMobile = () => {
         <>
           <ContainerMobile>
             <ContainerGeneric>
-            <Svg />
-            <img src={close} alt="icon close" className="close" onClick={() => setShowMenu(false)} /></ContainerGeneric>
+              <img src={logoMob} alt="logo" />
+              <img
+                src={close}
+                alt="option-close"
+                className="close"
+                onClick={() => setShowMenu(false)}
+              />
+            </ContainerGeneric>
             <ContainerLinksMob>
-            <Links showMenu={showMenu}/>
+              <Links showMenu={showMenu} />
             </ContainerLinksMob>
           </ContainerMobile>
         </>
       ) : (
-        <img src={menu} alt="icon menu mobile" onClick={() => setShowMenu(true)} />
+        <img
+          src={menu}
+          alt="icon menu mobile"
+          onClick={() => setShowMenu(true)}
+        />
       )}
     </Header>
   );
