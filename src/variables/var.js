@@ -14,5 +14,6 @@ const tablet =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689614023/bookMark-project/illustration-hero_f7dmic.svg";
 const logoMob =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689614024/bookMark-project/logo-bookmark1_tpspbj.svg";
-const darkLogo = 'https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689614023/bookMark-project/logo-bookmark_ls4hgj.svg'
-  export { mozilla, chrome, opera, tab1, tab2, tab3, tablet, logoMob,darkLogo };
+const darkLogo =
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1689614023/bookMark-project/logo-bookmark_ls4hgj.svg";
+export { mozilla, chrome, opera, tab1, tab2, tab3, tablet, logoMob, darkLogo };

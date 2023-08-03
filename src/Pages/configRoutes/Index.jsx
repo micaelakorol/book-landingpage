@@ -3,10 +3,10 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import App from "../App";
-import Easy from "../pages/Easy";
-import Simple from "../pages/Simple";
-import Speedy from "../pages/Speedy";
+import App from "../../App";
+import Easy from "../Easy";
+import Simple from "../Simple";
+import Speedy from "../Speedy";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(

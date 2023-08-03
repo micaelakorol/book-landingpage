@@ -1,6 +1,7 @@
 import React from "react";
 import { BtnContactUs, Inputs } from "../../styled-components/ContactUs";
-import InputValidation from "../InputEmail/Functions/InputValidation";
+import InputValidation from "../../functions/InputValidation";
+import { ToastContainer } from "react-toastify";
 
 const Input = ({ alert, setAlert }) => {
   const { handleChange, handleSubmit, validation, inputValue } =
@@ -26,8 +27,8 @@ const Input = ({ alert, setAlert }) => {
           alert={alert}
         >
           Contact Us
-        </BtnContactUs>
-      </form>
+        </BtnContactUs> 
+      </form>   
     </>
   );
 };

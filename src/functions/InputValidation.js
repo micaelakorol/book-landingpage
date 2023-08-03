@@ -1,10 +1,8 @@
-import React from "react";
 import { useState } from "react";
-import { initialValue } from "./InitialValue/initialState";
 
 const InputValidation = () => {
   let expEmail = /[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+/;
-  const [inputValue, setInputValue] = useState(initialValue);
+  const [inputValue, setInputValue] = useState({email:""});
 
   const validation = (setAlert) => {
     if (!expEmail.test(inputValue)) {
@@ -21,6 +19,7 @@ const InputValidation = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setInputValue({email:""})
   };
   return {
     handleChange,
