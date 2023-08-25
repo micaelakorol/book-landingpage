@@ -17,7 +17,7 @@ const ContainerPages = styled(ContainerPrincipal)`
   }
   @media (max-width: 768px) {
     p {
-      font-size: .9rem;
+      font-size: 0.9rem;
       width: 100%;
     }
     .img-pages {

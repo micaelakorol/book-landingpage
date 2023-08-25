@@ -1,5 +1,5 @@
 import React from "react";
-import { TitleFeatures, PFeatures } from "../../styled-components/Features";
+import { TitleFeatures, PFeatures } from "../../../styled-components/Features";
 
 const TitleQuestions = () => {
   return (

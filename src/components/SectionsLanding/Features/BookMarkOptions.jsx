@@ -3,7 +3,7 @@ import {
   Options,
   Container,
   Line,
-} from "../../styled-components/BookMarkOptions";
+} from "../../../styled-components/BookMarkOptions";
 import { Outlet } from "react-router-dom";
 
 const BookMarkOptions = () => {

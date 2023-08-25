@@ -7,9 +7,9 @@ import {
   ButtonChrome,
   ButtonFirefox,
   Shape
-} from "../../styled-components/PresentationBookMark";
-import { ContainerGeneric } from "../../styled-components/Color";
-import { tablet } from "../../variables/var";
+} from "../../../styled-components/PresentationBookMark";
+import { ContainerGeneric } from "../../../styled-components/Color";
+import { tablet } from "../../../variables/var";
 
 const PresentationProduct = () => {
   return (

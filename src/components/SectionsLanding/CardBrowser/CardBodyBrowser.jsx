@@ -1,6 +1,6 @@
 import React from "react";
-import { TitleCard, BodyCard } from "../../styled-components/CardBrowsers";
-import { ButtonChrome } from "../../styled-components/PresentationBookMark";
+import { TitleCard, BodyCard } from "../../../styled-components/CardBrowsers";
+import { ButtonChrome } from "../../../styled-components/PresentationBookMark";
 const CardBodyBrowser = ({ item }) => {
   return (
     <>

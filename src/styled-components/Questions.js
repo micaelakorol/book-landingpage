@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Color } from "./Color";
-import { Btn } from "../Pages/Styled-components/Simple";
+import { Btn } from "../pages/styled-components/Simple";
 
 const ContainerQuestion = styled.section`
   display: flex;

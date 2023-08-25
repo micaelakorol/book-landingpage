@@ -4,7 +4,7 @@ import {
   ContainerPages,
   DescriptionProduc,
   Title,
-} from "./Styled-components/Simple"
+} from "./styled-components/Simple"
 import { ContainerGeneric } from "../styled-components/Color";
 import { Description } from "../styled-components/PresentationBookMark";
 import {tab3} from '../variables/var'

@@ -1,4 +1,3 @@
-import Icon from "../../../images/icon-arrow.svg";
 
 const dataQuestions = {
   items: [

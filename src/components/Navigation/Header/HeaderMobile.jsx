@@ -3,12 +3,12 @@ import {
   ContainerLinksMob,
   ContainerMobile,
   Header,
-} from "../../styled-components/HeaderMobile";
-import close from "../../images/icon-close.svg";
-import menu from "../../images/icon-hamburger.svg";
+} from "../../../styled-components/HeaderMobile";
+import close from "../../../assets/images/icon-close.svg";
+import menu from "../../../assets/images/icon-hamburger.svg";
 import Links from "./Links";
-import { ContainerGeneric } from "../../styled-components/Color";
-import { logoMob } from "../../variables/var";
+import { ContainerGeneric } from "../../../styled-components/Color";
+import { logoMob } from "../../../variables/var";
 const HeaderMobile = () => {
   const [showMenu, setShowMenu] = useState(false);
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Btn, ContainerPages,DescriptionProduc, Title} from "./Styled-components/Simple";
+import { Btn, ContainerPages,DescriptionProduc, Title} from "./styled-components/Simple";
 import { Description } from "../styled-components/PresentationBookMark";
 import { ContainerGeneric } from "../styled-components/Color";
 import {tab1} from '../variables/var'

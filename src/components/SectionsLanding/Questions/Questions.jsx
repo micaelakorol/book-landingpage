@@ -1,12 +1,12 @@
 import React from "react";
 import TitleQuestions from "./TitleQuestions";
-import dataQuestions from "./dataQuestions/dataQuestions";
+import dataQuestions from "../constants/dataQuestions";
 import {
   BtnQuestions,
   ContainerQuestion,
   PSummary,
   Summary,
-} from "../../styled-components/Questions";
+} from "../../../styled-components/Questions";
 const Questions = () => {
   let data = dataQuestions.items;
 

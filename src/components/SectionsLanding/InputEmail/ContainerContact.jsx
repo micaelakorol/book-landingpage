@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, PContact, Title } from "../../styled-components/ContactUs";
+import { Container, PContact, Title } from "../../../styled-components/ContactUs";
 import Input from "./Input";
 import Alert from "./Alert";
 

@@ -1,4 +1,4 @@
-import dots from "../../../images/bg-dots.svg";
+import dots from "../../../assets/images/bg-dots.svg";
 import {chrome, mozilla, opera } from '../../../variables/var'
 const dataCard = {
   items: [

@@ -1,5 +1,5 @@
 import React from "react";
-import { Error } from "../../styled-components/ContactUs";
+import { Error } from "../../../styled-components/ContactUs";
 const Alert = ({ alert }) => {
   return (
     <p>

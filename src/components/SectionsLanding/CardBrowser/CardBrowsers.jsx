@@ -2,8 +2,8 @@ import React from "react";
 import {
   ContainerCard,
   Card,
-} from "../../styled-components/CardBrowsers";
-import dataCard from "./dataCard/dataCard";
+} from "../../../styled-components/CardBrowsers";
+import dataCard from "../constants/dataCard";
 import CardBodyBrowser from "./CardBodyBrowser";
 
 const CardBrowsers = () => {

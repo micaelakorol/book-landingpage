@@ -3,9 +3,9 @@ import {
   Headers,
   ContainerLogo,
   ContainerLinks,
-} from "../../styled-components/Header";
+} from "../../../styled-components/Header";
 import Links from "./Links";
-import { darkLogo } from "../../variables/var";
+import { darkLogo } from "../../../variables/var";
 const Header = () => {
   return (
     <Headers>

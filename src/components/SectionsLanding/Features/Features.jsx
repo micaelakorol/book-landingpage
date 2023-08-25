@@ -3,7 +3,7 @@ import {
   ContainerFeatures,
   PFeatures,
   TitleFeatures,
-} from "../../styled-components/Features";
+} from "../../../styled-components/Features";
 import BookMarkOptions from "./BookMarkOptions";
 
 const Features = () => {
